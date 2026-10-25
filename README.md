@@ -1,7 +1,5 @@
 # AI 추천 서비스 영업 대시보드 (Streamlit)
 
-Claude 아티팩트로 만든 대시보드를 그대로 Streamlit Community Cloud에 올리는 앱입니다.
-
 ## 파일
 - `app.py` : 대시보드 HTML을 화면 가득 띄우는 Streamlit 앱
 - `dashboard.html` : 대시보드 (실제 상호·URL 포함, 데이터 3,864곳 내장)
