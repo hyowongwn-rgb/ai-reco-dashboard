@@ -18,7 +18,7 @@ st.markdown(
 )
 
 # 공개용(상호·URL 가림)으로 바꾸려면 "dashboard_public.html"로 바꾸면 된다
-HTML_FILE = "dashboard.html"
+HTML_FILE = "dashboard_public.html"
 
 html = (Path(__file__).parent / HTML_FILE).read_text(encoding="utf-8")
 components.html(html, height=1600, scrolling=True)
